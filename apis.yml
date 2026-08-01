@@ -1,7 +1,15 @@
 aid: tokyootakumode
 name: TokyoOtakuMode
-description: TokyoOtakuMode is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Tokyo Otaku Mode (TOM) is a Japan-based e-commerce company and online
+  destination for fans of Japanese pop culture, selling official anime figures,
+  manga merchandise, apparel, and collectibles worldwide through its
+  otakumode.com shop. Grown out of a large social-media following, TOM curates
+  and ships Japanese otaku goods internationally. It runs a private,
+  API-key-gated backend (api.otakumode.com) that powers its storefront, but
+  publishes no public developer program, API documentation, OpenAPI/AsyncAPI
+  specifications, or first-party client SDKs. This profile was surfaced as a
+  500 Global portfolio company and enriched from live public probes.
 url: https://raw.githubusercontent.com/api-evangelist/tokyootakumode/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://otakumode.com/images/share_default.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Anime
+- Manga
+- Merchandise
+- E-Commerce
+- Japan
+- Pop Culture
+- Retail
+- Otaku
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +50,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
+  url: https://otakumode.com
+- type: Corporate
   url: https://corporate.otakumode.com
+- type: GitHubOrganization
+  url: https://github.com/tokyootakumode
+- type: HelpCenter
+  url: https://otakumode.com/help
+- type: PrivacyPolicy
+  url: https://otakumode.com/privacy
+- type: DomainSecurity
+  url: security/tokyootakumode-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
